@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttonBox button {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#text{
+  padding: 25px;
+}

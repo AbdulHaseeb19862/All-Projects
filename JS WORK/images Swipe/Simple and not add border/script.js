@@ -13,20 +13,20 @@ const swapImage3 = document.getElementById("swapImage3");
 // for image 1
 swapImage1.addEventListener("click", function () {
   const swipeImage = document.getElementById("swipeImage");
-  const url = swapImage1.src;
-  swipeImage.src = url;
+  const src = swapImage1.src;
+  swipeImage.src = src;
 });
 
 // for image 2
 swapImage2.addEventListener("click", function () {
   const swipeImage = document.getElementById("swipeImage");
-  const url = swapImage2.src;
-  swipeImage.src = url;
+  const src = swapImage2.src;
+  swipeImage.src = src;
 });
 
 // for image 3
 swapImage3.addEventListener("click", function () {
   const swipeImage = document.getElementById("swipeImage");
-  const url = swapImage3.src;
-  swipeImage.src = url;
+  const src = swapImage3.src;
+  swipeImage.src = src;
 });

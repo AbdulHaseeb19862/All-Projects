@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+  width: 70%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.image-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.image-gallery img{
+  width: 30%;
+  border-radius: 10px;
+}
+
+.swipe-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.swipe-image img{
+  width: 50%;
+}
+
+h3{
+  margin-top: 20px;
+}
+
+.active{
+  border: 2px solid red;
+  transition: all 0.3s linear 0s;
+}
