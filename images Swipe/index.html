@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swipe Images</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="image-gallery">
+      <img src="./images/bike.jpg" onclick="swapImage(`./images/bike.jpg`)" alt="image1">
+      <img src="./images/car.jpg" onclick="swapImage(`./images/car.jpg`)" alt="image2">
+      <img src="./images/cycle.jpg" onclick="swapImage(`./images/cycle.jpg`)" alt="image3">
+    </div>
+<div>
+  <h3 >Selected Image</h3>
+</div>
+    <div class="swipe-image">
+      <img id="swipeImage" src="./images/bike.jpg" alt="swipe image">
+    </div>
+  </div>
+  
+
+  <script src="./script.js"></script>
+</body>
+</html>
