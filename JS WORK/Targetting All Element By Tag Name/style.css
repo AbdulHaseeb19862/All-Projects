@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+p{
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+button{
+  padding: 10px 30px;
+  border: none;
+  background-color: rgba(101, 101, 235, 0.963);
+  color: white;
+  cursor: pointer;
+}
+
+.styled{
+  background-color: rgb(89, 89, 218);
+  color: white;
+}

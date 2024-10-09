@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mainContainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+ul li {
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.btnBox button {
+  padding: 10px;
+  width: 150px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.styled {
+  background-color: green;
+  color: white;
+}
+
+.style {
+  background-color: rgb(235, 34, 34);
+  color: white;
+}

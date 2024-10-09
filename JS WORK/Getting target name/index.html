@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Getting Target Name</title>
+  <style>
+    #clickable{
+      border: 1px solid black;
+      padding: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="mainContainer">
+    <h1>Interactive DOM Inspector</h1>
+    <p>Click on any element below to see its properties</p>
+    <h3 id="clickable">This is a header div.</h3>
+    <p id="clickable">This is a paragraph element</p>
+    <span id="clickable">This is a span element</span>
+    <div class="info">
+      <p id="nodeName">Node Name:</p>
+      <p id="nodeValue">Node Value:</p>
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
