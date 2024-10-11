@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.container{
+  background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card{
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+.textContainer{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.amountContainer {
+  width: 85%;
+  height: 55px;
+  background-color: rgb(92, 92, 233);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding: 10px;
+
+}
+
+.left{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.left img{
+  height: 100%;
+  width: 70px;
+}
+
+
+
+
+.right a {
+  color: rgb(3, 3, 85);
+  font-size: 17px;
+  border-bottom: 2px solid rgb(3, 3, 85);
+ 
+}
+
+.paraContainer p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 85%;
+  height: 55px;
+  background-color: rgb(4, 4, 46);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+
+  
+}
+
+a{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(56, 55, 55);
+}
