@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2,1fr);
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
+  /* justify-items: center; */ /*or ye saroon items ko horizontally center kar detha hain  */ 
+  /* align-items: center;  */  /*or ye saroon items ko horizontally center kar detha hain  */
+  place-items: center; /*or ye saron items ko vertically and horizontally both center kar detha hain*/
+
+}
+
+
+.item{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(95, 95, 173);
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+ /* justify-self: center; */  /*ye item ko vertically align kartha hain or ye grid say related hain  */
+/*align-self: center; */    /* ye item ko horizontally align kartha hain or ye grid say related hain */
+/* place-self: center;  */  /*ye dono ko vertically and horizontally main center kar dethey hain  */
+
+
+
+
+ 
+
+}
