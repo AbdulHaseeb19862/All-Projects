@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card_container{
+  width: 360px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 2px;
+}
+
+.image_container{
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+}
+
+p{
+  padding: 10px;
+  font-size: 17px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .card_container {
+    width: 540px; /* Cards will take more space on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card_container {
+    width: 100%; /* Cards will stack on top of each other for smaller screens */
+  }
+}
