@@ -41,7 +41,7 @@ function SocialPlateForm() {
       <h2 className="text-center text-2xl md:text-4xl font-semibold">
         Social Media PlateForm
       </h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 px-32 pt-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 px-10 md:px-32 pt-8">
         {plateForms.map((plateform, index) => {
           return (
             <>

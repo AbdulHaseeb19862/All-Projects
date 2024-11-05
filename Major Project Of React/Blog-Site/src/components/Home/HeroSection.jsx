@@ -14,8 +14,8 @@ function HeroSection() {
         spaceBetween={50}
         slidesPerView={1}
         navigation
-        // loop={true}
-        // autoplay={{ delay: 3000 }}
+        loop={true}
+        autoplay={{ delay: 3000 }}
       >
         <SwiperSlide className="w-full h-screen">
           <img className="w-full h-screen" src={hero1} alt="" />

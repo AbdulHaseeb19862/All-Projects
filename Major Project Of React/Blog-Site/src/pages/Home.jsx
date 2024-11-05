@@ -4,6 +4,11 @@ import HeroSection from "../components/Home/HeroSection";
 import Help from "../components/Home/Help";
 import SocialPlateForm from "../components/Home/SocialPlateForm";
 import CEO from "../components/Home/CEO";
+import OurTeam from "../components/Home/OurTeam";
+import OurCustomer from "../components/Home/OurCustomer";
+import Address from "../components/Home/Address";
+import Contact from "../components/Home/Contact";
+import Footer from "../components/Home/Footer";
 
 function Home() {
   return (
@@ -16,6 +21,11 @@ function Home() {
       <Help></Help>
       <SocialPlateForm></SocialPlateForm>
       <CEO />
+      <OurTeam />
+      <OurCustomer />
+      <Address></Address>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }
